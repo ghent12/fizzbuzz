@@ -1,0 +1,44 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <Title>Sandbox to test minor things in.</Title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <button>Press me</button>
+
+    <script>
+      // JavaScript here!
+      let fizzBuzzNumber = parseInt(prompt("Choose a number to play FizzBuzz!"));
+      
+      for (let i = 1; i <= fizzBuzzNumber; i++) {
+        if (i % 3 == 0) {
+          if (i % 5 == 0) {
+            console.log("FizzBuzz");
+          } else {
+            console.log("Fizz");
+          }
+        } else if (i % 5 == 0) {
+          console.log("Buzz");
+        } else {
+          console.log(i);
+        }
+      }
+
+    </script>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
